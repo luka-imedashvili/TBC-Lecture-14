@@ -1,0 +1,31 @@
+%container {
+  max-width: 1262px;
+  width: 100%;
+  margin: 0 auto;
+  @media (max-width: 1300px) {
+    width: 90%;
+  }
+}
+%card {
+  max-width: 286px;
+  width: 100%;
+  img {
+    margin-bottom: 23px;
+  }
+  h3 {
+    font-family: $main-font;
+    color: #343232;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  p {
+    font-family: $main-font;
+    color: $main-color;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
